@@ -1,3 +1,5 @@
-.container-sign-in {
-  height: 100vh;
+.form-sign-in {
+  justify-content: space-between;
+  width: 300px;
+  height: auto;
 }
