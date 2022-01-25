@@ -1,6 +1,7 @@
 import "./styles.css";
 import "../../styles/form.css";
 import { Link } from "react-router-dom";
+import AllRightsReserved from "../../components/AllRigthsReserved";
 
 function SignUp() {
   return (
@@ -53,7 +54,7 @@ function SignUp() {
           </div>
         </div>
         <button className="btn-dark-blue">Cadastre-se</button>
-        <span className="light-label">©2021 Todos os Direitos Reservados</span>
+        <AllRightsReserved />
       </form>
     </div>
   );

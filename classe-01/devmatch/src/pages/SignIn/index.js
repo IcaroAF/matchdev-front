@@ -1,6 +1,7 @@
 import "./styles.css";
 import "../../styles/form.css";
 import { Link } from "react-router-dom";
+import AllRightsReserved from "../../components/AllRigthsReserved";
 
 function SignIn() {
   return (
@@ -28,7 +29,7 @@ function SignIn() {
         <Link to="/recovery-password" className="my-lg">
           Esqueceu sua senha?
         </Link>
-        <span className="light-label">©2021 Todos os Direitos Reservados</span>
+        <AllRightsReserved />
       </form>
     </div>
   );
