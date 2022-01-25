@@ -11,11 +11,11 @@ function SignIn() {
           <Link to="/sign-up">Cadastre-se</Link>
         </div>
         <div>
-          <div>
+          <div className="flex-column">
             <label htmlFor="email">E-mail</label>
             <input id="email" type="text" placeholder="Digite seu e-mail" />
           </div>
-          <div>
+          <div className="flex-column">
             <label htmlFor="email">Senha</label>
             <input id="email" type="password" placeholder="Digite sua senha" />
           </div>
