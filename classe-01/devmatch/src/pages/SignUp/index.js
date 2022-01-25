@@ -1,9 +1,14 @@
 import "./styles.css";
 import "../../styles/form.css";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import AllRightsReserved from "../../components/AllRigthsReserved";
+import InputPassword from "../../components/InputPassword";
 
 function SignUp() {
+  const [password, setPassword] = useState("");
+  const [confirmPassowrd, setConfirmPassword] = useState("");
+
   return (
     <div className="container-form">
       <form className="form form-sign-up">
@@ -21,14 +26,12 @@ function SignUp() {
               <label htmlFor="cep">CEP</label>
               <input id="cep" type="text" placeholder="Digite seu CPF" />
             </div>
-            <div className="flex-column">
-              <label htmlFor="password">Senha</label>
-              <input
-                id="password"
-                type="password"
-                placeholder="Digite sua senha"
-              />
-            </div>
+            <InputPassword
+              label="Senha"
+              placeholder="Digite sua senha"
+              value={password}
+              setValue={setPassword}
+            />
           </div>
           <div>
             <div className="flex-column">
@@ -43,14 +46,12 @@ function SignUp() {
                 placeholder="Digite sua cidade"
               />
             </div>
-            <div className="flex-column">
-              <label htmlFor="confirm-password">Confirme sua senha</label>
-              <input
-                id="confirm-password"
-                type="password"
-                placeholder="Digite sua senha novamente"
-              />
-            </div>
+            <InputPassword
+              label="Confirme sua senha"
+              placeholder="Digite sua senha novamente"
+              value={confirmPassowrd}
+              setValue={setConfirmPassword}
+            />
           </div>
         </div>
         <button className="btn-dark-blue">Cadastre-se</button>
