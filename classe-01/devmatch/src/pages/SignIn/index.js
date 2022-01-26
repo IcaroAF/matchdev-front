@@ -9,7 +9,7 @@ function SignIn() {
   const [password, setPassword] = useState("");
 
   return (
-    <div className="container-form">
+    <div className="background-dark-form container-form">
       <form className="form form-sign-in">
         <div className="text-center mb-lg">
           <h1>Entrar</h1>

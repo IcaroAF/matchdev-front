@@ -45,7 +45,7 @@ function SignUp() {
   }, [cep]);
 
   return (
-    <div className="container-form">
+    <div className="background-dark-form container-form">
       <form className="form form-sign-up">
         <div className="text-center mb-lg">
           <h1>Cadastre-se</h1>

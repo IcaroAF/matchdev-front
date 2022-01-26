@@ -43,3 +43,11 @@ input[type="checkbox"] {
   margin-right: 10px;
   cursor: pointer;
 }
+
+.background-dark-form {
+  background-color: #1b1a34;
+  background-image: url(../assets/background.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 70%;
+}
