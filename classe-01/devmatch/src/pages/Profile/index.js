@@ -3,6 +3,7 @@ import ProfileBar from "../../components/ProfileBar";
 import InputPassword from "../../components/InputPassword";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
+import Skills from "../../components/Skills";
 
 function Profile() {
   return (
@@ -29,6 +30,13 @@ function Profile() {
               <input id="city" type="text" />
             </div>
             <InputPassword label="Senha" />
+            <div>
+              <h2>Habilidades</h2>
+              <Skills
+                skills={["NodeJS", "ReactJS", "ExpressJS"]}
+                addButton={true}
+              />
+            </div>
           </div>
           <div className="flex-column">
             <div className="profile-picture flex-row content-center items-center flex-grow">
