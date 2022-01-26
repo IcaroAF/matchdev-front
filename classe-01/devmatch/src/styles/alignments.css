@@ -14,3 +14,11 @@
 .items-center {
   align-items: center;
 }
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.align-start {
+  align-self: flex-start;
+}
