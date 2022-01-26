@@ -1,5 +1,5 @@
 import "./styles.css";
-//import GoogleLogo from "../../assets/google-logo.svg";
+import Skills from "../Skills";
 
 function JobOpportunity({
   img_url,
@@ -20,13 +20,7 @@ function JobOpportunity({
       </div>
       <div className="details">
         <strong>Requisitos</strong>
-        <div className="flex-row">
-          {requirements.map((requirement) => (
-            <div className="badge-blue" key={requirement}>
-              {requirement}
-            </div>
-          ))}
-        </div>
+        <Skills skills={requirements} addButton={false} />
       </div>
       <div className="details">
         <strong>Senioridade</strong>
