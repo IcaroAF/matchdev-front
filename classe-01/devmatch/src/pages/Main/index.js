@@ -2,6 +2,7 @@ import "./styles.css";
 import ProfileBar from "../../components/ProfileBar";
 import JobOpportunity from "../../components/JobOpportunity";
 import GoogleLogo from "../../assets/google-logo.svg";
+import ActionButtons from "../../components/ActionButtons";
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
           "Auxílio Home Office",
         ]}
       />
+      <ActionButtons />
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.button-icon {
+  width: 80px;
+  margin: 30px 5px;
+  cursor: pointer;
+}
+
+.button-icon:hover {
+  transform: scale(1.2);
+}
