@@ -2,6 +2,7 @@
 @import "./buttons.css";
 @import "./margins.css";
 @import "./texts.css";
+@import "./badge.css";
 
 body {
   margin: 0;

@@ -1,0 +1,20 @@
+.container-job-opportunity {
+  width: 70%;
+}
+
+.logo {
+  width: 300px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.details strong {
+  font-size: 18px;
+}
