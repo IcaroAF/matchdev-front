@@ -1,5 +1,7 @@
 .btn-dark-blue {
+  font-family: inherit;
   background-color: #1b1a34;
   color: white;
   width: 325px;
+  border: 0;
 }

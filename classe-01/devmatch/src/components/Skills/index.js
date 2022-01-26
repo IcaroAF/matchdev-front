@@ -8,7 +8,9 @@ function Skills({ skills, addButton }) {
           {skill}
         </div>
       ))}
-      {addButton && <button className="badge blue-outline">Adicionar</button>}
+      {addButton && (
+        <button className="badge blue-outline add-skills">Adicionar</button>
+      )}
     </div>
   );
 }
